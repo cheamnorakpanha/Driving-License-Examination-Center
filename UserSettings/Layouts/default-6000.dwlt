@@ -368,9 +368,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 86a70000
-      m_LastClickedID: 42886
-      m_ExpandedIDs: 20fbffff6ca7000082a700009ca70000caa70000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 20fbffffcaa70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -918,9 +918,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 1.5535421, y: 0.4062256, z: -0.19562297}
+    m_Target: {x: 2.1646705, y: 6.5749454, z: 6.2354403}
     speed: 2
-    m_Value: {x: 1.5535421, y: 0.4062256, z: -0.19562297}
+    m_Value: {x: 2.1648388, y: 6.575078, z: 6.235421}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -966,9 +966,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.24325135, y: -0.13940583, z: 0.035259146, w: 0.9593019}
+    m_Target: {x: -0.17867826, y: 0.8200695, z: -0.3566798, w: -0.41043985}
     speed: 2
-    m_Value: {x: 0.24323817, y: -0.13939828, z: 0.035257235, w: 0.95924985}
+    m_Value: {x: -0.17920223, y: 0.8194033, z: -0.3563898, w: -0.41164458}
   m_Size:
     m_Target: 1.7677206
     speed: 2
@@ -1190,7 +1190,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/mitsubishi-lancer-evolution-viii-low-poly/source/lanser to upload
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1200,16 +1200,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/mitsubishi-lancer-evolution-viii-low-poly/source/lanser to upload
+  - Assets/Scripts
   m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\GameDev\Projects\DLEC
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fca90000
-    m_LastClickedID: 43516
-    m_ExpandedIDs: 000000000ea8000010a8000012a8000014a8000016a8000018a800001aa800001ca800001ea80000ffffff7f
+    m_SelectedIDs: 00aa0000
+    m_LastClickedID: 43520
+    m_ExpandedIDs: 000000000ea8000010a8000012a8000014a8000016a8000018a800001aa800001ca80000faa90000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1238,7 +1238,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000ea8000010a8000012a8000014a8000016a8000018a800001aa800001ca800001ea80000
+    m_ExpandedIDs: 000000000ea8000010a8000012a8000014a8000016a8000018a800001aa800001ca80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

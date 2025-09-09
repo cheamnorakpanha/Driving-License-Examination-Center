@@ -96,6 +96,19 @@ public class CarController: MonoBehaviour
         }
     }
 
+    //void AnimatedWheels()
+    //{
+    //    foreach (var wheel in wheels)
+    //    {
+    //        Quaternion rot;
+    //        Vector3 pos;
+    //        wheel.wheelCollider.GetWorldPose(out pos, out rot);
+    //        wheel.wheelModel.transform.position = pos;
+    //        wheel.wheelModel.transform.rotation = rot;
+
+    //    }
+    //}
+
     void AnimatedWheels()
     {
         foreach (var wheel in wheels)
@@ -103,9 +116,16 @@ public class CarController: MonoBehaviour
             Quaternion rot;
             Vector3 pos;
             wheel.wheelCollider.GetWorldPose(out pos, out rot);
-            wheel.wheelModel.transform.position = pos;
-            wheel.wheelModel.transform.rotation = rot;
 
+            wheel.wheelModel.transform.position = pos;
+
+            // Only flip right-side wheels (x < 0)
+            if (wheel.wheelCollider.transform.localPosition.x < 0)
+            {
+                rot *= Quaternion.Euler(0, -180f, 0); // rotate right-sided wheels back to its default position
+            }
+
+            wheel.wheelModel.transform.rotation = rot;
         }
     }
 }
