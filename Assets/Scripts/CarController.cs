@@ -54,7 +54,7 @@ public class CarController: MonoBehaviour
 
     void GetInputs()
     {
-        moveInput = Input.GetAxis("Vertical");
+        moveInput = -Input.GetAxis("Vertical");     // flip forward to W & backward to S
         steerInput = Input.GetAxis("Horizontal");
     }
 
