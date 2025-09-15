@@ -2,21 +2,21 @@ Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.57f1 (b7b9860b7bbd) revision 12040582'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16110 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-09-08T12:49:54Z
+Date: 2025-09-15T05:32:37Z
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\6000.0.57f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-D:/GameDev/Projects/DLEC
+D:/Code/Unity/DLEC
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-60640
+58415
 -job-worker-count
 7
 -background-job-worker-count
@@ -25,8 +25,8 @@ Logs/AssetImportWorker2.log
 1
 -name
 AssetImport
-Successfully changed project path to: D:/GameDev/Projects/DLEC
-D:/GameDev/Projects/DLEC
+Successfully changed project path to: D:/Code/Unity/DLEC
+D:/Code/Unity/DLEC
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,14 +62,12 @@ D:/GameDev/Projects/DLEC
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [42700]  Target information:
+Player connection [6360]  Target information:
 
-Player connection [42700]  * "[IP] 172.19.128.1 [Port] 0 [Flags] 2 [Guid] 1400697540 [EditorId] 1400697540 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OI5623P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6360]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 4104386199 [EditorId] 4104386199 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K2C2IQF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [42700]  * "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 1400697540 [EditorId] 1400697540 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OI5623P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [42700] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [42700] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6360] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6360] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -81,11 +79,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.57f1 (b7b9860b7bbd)
-[Subsystems] Discovering subsystems at path D:/Unity/6000.0.57f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GameDev/Projects/DLEC/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Code/Unity/DLEC/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -94,46 +92,46 @@ Direct3D:
     VRAM:     5996 MB
     Driver:   32.0.15.7688
 Initialize mono
-Mono path[0] = 'D:/Unity/6000.0.57f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/6000.0.57f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/6000.0.57f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/6000.0.57f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004528 seconds.
-- Loaded All Assemblies, in  0.573 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002183 seconds.
+- Loaded All Assemblies, in  0.444 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.517 seconds
-Domain Reload Profiling: 1090ms
-	BeginReloadAssembly (222ms)
+- Finished resetting the current domain, in  0.427 seconds
+Domain Reload Profiling: 870ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (215ms)
-		LoadAssemblies (221ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (196ms)
+		LoadAssemblies (137ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (211ms)
-			TypeCache.Refresh (208ms)
-				TypeCache.ScanAssembly (185ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (174ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (518ms)
+	FinalizeReload (428ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (443ms)
+		SetupLoadedEditorAssemblies (368ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (242ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -142,80 +140,168 @@ Domain Reload Profiling: 1090ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.398 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.150 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.271 seconds
-Domain Reload Profiling: 2666ms
-	BeginReloadAssembly (310ms)
+- Finished resetting the current domain, in  1.070 seconds
+Domain Reload Profiling: 2217ms
+	BeginReloadAssembly (252ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (936ms)
-		LoadAssemblies (636ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (736ms)
+		LoadAssemblies (524ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (439ms)
-			TypeCache.Refresh (344ms)
-				TypeCache.ScanAssembly (308ms)
-			BuildScriptInfoCaches (71ms)
+		AnalyzeDomain (377ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (261ms)
+			BuildScriptInfoCaches (64ms)
 			ResolveRequiredComponents (16ms)
-	FinalizeReload (1272ms)
+	FinalizeReload (1071ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (883ms)
+		SetupLoadedEditorAssemblies (740ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (174ms)
-			ProcessInitializeOnLoadAttributes (583ms)
-			ProcessInitializeOnLoadMethodAttributes (108ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (502ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
 			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6085 unused Assets / (7.0 MB). Loaded Objects now: 6738.
-Memory consumption went from 135.1 MB to 128.2 MB.
-Total: 36.928800 ms (FindLiveObjects: 6.939400 ms CreateObjectMapping: 3.675000 ms MarkObjects: 13.926000 ms  DeleteObjects: 12.385300 ms)
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6070 unused Assets / (4.8 MB). Loaded Objects now: 6757.
+Memory consumption went from 127.3 MB to 122.5 MB.
+Total: 18.309400 ms (FindLiveObjects: 1.595200 ms CreateObjectMapping: 1.887300 ms MarkObjects: 8.982900 ms  DeleteObjects: 5.842000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 121770.024770 seconds.
-  path: Assets/2015-porsche-918-spyder-weissach-package-martini/source/FINAL_MODEL_1/common_carbon05_norm.png
-  artifactKey: Guid(bc105ce863d6a7343bc8081372aab918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2015-porsche-918-spyder-weissach-package-martini/source/FINAL_MODEL_1/common_carbon05_norm.png using Guid(bc105ce863d6a7343bc8081372aab918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0964c619aa0cf5c95946c40581a5c68') in 0.190683 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 90852.415822 seconds.
+  path: Assets/lamborghini-gallardo-lp550-2-low-poly
+  artifactKey: Guid(f89304187e58793408cce084a49e2268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lamborghini-gallardo-lp550-2-low-poly using Guid(f89304187e58793408cce084a49e2268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de09418bc7c67fb4072d171f591e49bb') in 0.004312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/2015-porsche-918-spyder-weissach-package-martini/source/FINAL_MODEL_1/Porsche_918Spyder_2015_InteriorA_Normal.png
-  artifactKey: Guid(ab2a21e9544bfae4dab4c3d797c41ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2015-porsche-918-spyder-weissach-package-martini/source/FINAL_MODEL_1/Porsche_918Spyder_2015_InteriorA_Normal.png using Guid(ab2a21e9544bfae4dab4c3d797c41ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f9745089c8046daf580265c98f6c2e6') in 0.0339078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 1.668480 seconds.
+  path: Assets/lamborghini-gallardo-lp550-2-low-poly/source
+  artifactKey: Guid(33a9884e15d753b4b90f2cc924072ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lamborghini-gallardo-lp550-2-low-poly/source using Guid(33a9884e15d753b4b90f2cc924072ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0d0d222f599f17941493f3df074cb93') in 0.0005955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/2015-porsche-918-spyder-weissach-package-martini/source/FINAL_MODEL_1/Porsche_918Spyder_2015_Grille3A_Normal.png
-  artifactKey: Guid(fc5632331a337a74db2baf2d830f588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2015-porsche-918-spyder-weissach-package-martini/source/FINAL_MODEL_1/Porsche_918Spyder_2015_Grille3A_Normal.png using Guid(fc5632331a337a74db2baf2d830f588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c38440d8216a291f8ee55ed5fb26d73') in 0.0174197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 1.745599 seconds.
+  path: Assets/mitsubishi-lancer-evolution-viii-low-poly
+  artifactKey: Guid(722d8c1074f6e4547a2e8409e8f19cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mitsubishi-lancer-evolution-viii-low-poly using Guid(722d8c1074f6e4547a2e8409e8f19cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb2789207bbd6cea72a4fb5502d83b1d') in 0.0005766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.596961 seconds.
+  path: Assets/Models/lamborghini-gallardo-lp550-2-low-poly
+  artifactKey: Guid(4bd8d4b6cc416414eb012fa9f5df470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lamborghini-gallardo-lp550-2-low-poly using Guid(4bd8d4b6cc416414eb012fa9f5df470b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98ce5c2cc7d2bc78c494699cefe252ab') in 0.0009656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.008523 seconds.
+  path: Assets/Models/lamborghini-gallardo-lp550-2-low-poly/source
+  artifactKey: Guid(51ee7e7a89512564ba69b7c06310ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lamborghini-gallardo-lp550-2-low-poly/source using Guid(51ee7e7a89512564ba69b7c06310ccc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '028e8b3f38fe28c5d6ce190674602371') in 0.0005118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.256671 seconds.
+  path: Assets/Models/lamborghini-gallardo-lp550-2-low-poly/textures
+  artifactKey: Guid(a46e47d5b9530cf4b9b8ab06e36676b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lamborghini-gallardo-lp550-2-low-poly/textures using Guid(a46e47d5b9530cf4b9b8ab06e36676b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ab296ebde4362e5bb3a43ac2964d118') in 0.000533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.609821 seconds.
+  path: Assets/Models/lamborghini-gallardo-lp550-2-low-poly/source/lamborgini (extract.me)
+  artifactKey: Guid(28e93baf04d2ee844ae86c997e225523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lamborghini-gallardo-lp550-2-low-poly/source/lamborgini (extract.me) using Guid(28e93baf04d2ee844ae86c997e225523) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d821f6e6a8514dbdfad7b50e84c8eb6') in 0.0005255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.220956 seconds.
+  path: Assets/Models/lamborghini-gallardo-lp550-2-low-poly/source/lamborgini (extract.me)/lamborgini.fbx
+  artifactKey: Guid(1a3db0d6b8f64d54cb76da992f49a3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/lamborghini-gallardo-lp550-2-low-poly/source/lamborgini (extract.me)/lamborgini.fbx using Guid(1a3db0d6b8f64d54cb76da992f49a3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64441764c661488d44252a1f096cc97e') in 3.3538157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.685620 seconds.
+  path: Assets/Models/mitsubishi-lancer-evolution-viii-low-poly
+  artifactKey: Guid(cde0f53c60fea0c44b9513fe1a6495b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mitsubishi-lancer-evolution-viii-low-poly using Guid(cde0f53c60fea0c44b9513fe1a6495b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e8b90a05dba590a730442a25396d6a3') in 0.0007805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.175937 seconds.
+  path: Assets/Models/mitsubishi-lancer-evolution-viii-low-poly/source
+  artifactKey: Guid(8e55231de4d056a4f9cd16646e7d1c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mitsubishi-lancer-evolution-viii-low-poly/source using Guid(8e55231de4d056a4f9cd16646e7d1c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dd3b643ab43df585b09f909fc1f969f') in 0.0005071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.690961 seconds.
+  path: Assets/Models/mitsubishi-lancer-evolution-viii-low-poly/source/lanser to upload
+  artifactKey: Guid(f11ae40de6f505a4e8ff059236286696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mitsubishi-lancer-evolution-viii-low-poly/source/lanser to upload using Guid(f11ae40de6f505a4e8ff059236286696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf630a841bf9e2b6dc8c70ed101fad61') in 0.0005985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.980059 seconds.
+  path: Assets/Models/mitsubishi-lancer-evolution-viii-low-poly/source/lanser to upload/mitsubishi-lancer.fbx
+  artifactKey: Guid(6678af0a179e4e349835658f2dab580b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mitsubishi-lancer-evolution-viii-low-poly/source/lanser to upload/mitsubishi-lancer.fbx using Guid(6678af0a179e4e349835658f2dab580b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e11e2d888e3a8b230db56e7934a23a3') in 0.0493384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (1.8 MB). Loaded Objects now: 6946.
+Memory consumption went from 138.0 MB to 136.1 MB.
+Total: 16.919100 ms (FindLiveObjects: 0.922300 ms CreateObjectMapping: 1.412000 ms MarkObjects: 13.654000 ms  DeleteObjects: 0.927600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (1.8 MB). Loaded Objects now: 6946.
+Memory consumption went from 138.0 MB to 136.1 MB.
+Total: 12.968600 ms (FindLiveObjects: 0.826000 ms CreateObjectMapping: 0.684600 ms MarkObjects: 10.597000 ms  DeleteObjects: 0.858500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
