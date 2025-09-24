@@ -45,7 +45,6 @@ public class CarController: MonoBehaviour
     {
         GetInputs();
         AnimatedWheels();
-        //WheelEffects();
     }
 
     void LateUpdate()
@@ -53,6 +52,7 @@ public class CarController: MonoBehaviour
         Move();
         Steer();
         Brake();
+        WheelEffects();
     }
 
     void GetInputs()
@@ -136,10 +136,10 @@ public class CarController: MonoBehaviour
     {
         foreach (var wheel in wheels)
         {
-            if (Input.GetKey(KeyCode.Space) && wheel.axel == Axel.Rear && wheel.wheelCollider.isGrounded == true && carRb.angularVelocity.magnitude >= 10.0f)
+            if (Input.GetKey(KeyCode.Space) && wheel.axel == Axel.Rear) // REMOVE DRIFT SMOKE: && wheel.wheelCollider.isGrounded == true && carRb.angularVelocity.magnitude >= 10.0f
             {
                 wheel.wheelEffectObj.GetComponentInChildren<TrailRenderer>().emitting = true;
-                wheel.smokeParticle.Emit(1);
+                //wheel.smokeParticle.Emit(1);
             }
             else
             {
